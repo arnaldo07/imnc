@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="js/script.js"></script>
+    <link href="css/style.css">
+    <title>Default title</title>
+  </head>
+  <body>
+    <div class="moviments-form-container">
+      <div class="moviments-form-subcontainer">
+        <div class="moviments-head">
+          <h1 class="main-hero">Inserção de Movimentos Díarios</h1>
+          <p class="main-paragraph"></p>
+        </div>
+        <div class="moviments-body">
+          <form method="POST" action="" class="moviments-insertion-form">
+            <div class="form-row">
+              <label class="input-label">
+                <input type="text" name="currency" value="MZN"/>
+              </label>
+              <label class="input-label">
+                <input type="text" name="exchange" value="0,00"/>
+              </label>
+              <div class="float-right">
+                <label class="input-label">
+                  <input type="data" name="operation-date" value=""/>
+                </label>
+              </div>
+            </div>
+            <div class="empty-row"></div>
+            <div class="the-table">
+              <table class="moviments-table">
+                <tdhead class="input-table-head">
+                  <tr class="head">
+                    <td> Código</td>
+                    <td> Designação</td>
+                    <td> Débito</td>
+                    <td> Crédito</td>
+                  </tr>
+                </tdhead>
+                <tdbody class="input-table-body">
+                  <tr class="body">
+                    <td>
+                      <input type="text" name="code" value="none"/>
+                    </td>
+                    <td>
+                      <select name="description">
+                        <option selected="selected">Seleccione uma designação</option>
+                        <option value="Dizims">Dizimos</option>
+                        <option value="Offers">Ofertas</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input type="text" name="debit" value=""/>
+                    </td>
+                    <td>
+                      <input type="text" name="credit" value=""/>
+                    </td>
+                  </tr>
+                </tdbody>
+              </table>
+              <div class="table-footer">
+                <div class="table-footer-content float-left">
+                  <div class="total-debit"><span class="debit-total-head">Total Débito</span><span class="debit-total-body">0,00</span></div>
+                  <div class="total-credit"><span class="credit-total-head">Total Crédito</span><span class="credit-total-body">0,00</span></div>
+                </div>
+                <div class="table-footer-content float-right"><a href="#">Extracto</a><a href="#">Imprimir</a></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
