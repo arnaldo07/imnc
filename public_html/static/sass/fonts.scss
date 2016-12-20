@@ -1,0 +1,37 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: defines fonts to be used along the project
+  * Company: Xindiri
+  * Company URI:https://xindiri.com
+*/
+
+ /*thin font*/
+  @font-face{
+         font-family: imnc thin;
+         src: url(../content/fonts/raleway/Raleway-Thin.ttf);
+  }
+
+/*regular font*/
+ @font-face{
+        font-family: imnc regular;
+        src: url(../content/fonts/raleway/Raleway-Regular.ttf);
+ }
+
+/*semi-bold font */
+ @font-face{
+        font-family:  imnc semibold;
+        src: url(../content/fonts/raleway/Raleway-Bold.ttf);
+ }
+
+ /*etrabold font */
+ @font-face{
+        font-family: imnc bold;
+        src: url(../content/fonts/raleway/Raleway-ExtraBold.ttf);
+ }
+
+ /*light italic font */
+ @font-face{
+        font-family:  imnc lightitalic;
+        src: url(../content/fonts/raleway/Raleway-LightItalic.ttf);
+ }
