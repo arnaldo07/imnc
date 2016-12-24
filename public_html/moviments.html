@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
     <script src="js/script.js"></script>
-    <link href="css/style.css">
+    <link rel="stylesheet" href="static/stylesheets/moviments.css">
     <title>Default title</title>
   </head>
   <body>
@@ -18,55 +18,58 @@
         </div>
         <div class="moviments-body">
           <form method="POST" action="" class="moviments-insertion-form">
-            <div class="form-row">
-              <label class="input-label">
-                <input type="text" name="currency" value="MZN"/>
-              </label>
-              <label class="input-label">
-                <input type="text" name="exchange" value="0,00"/>
-              </label>
+            <div class="form-row row-1">
+              <div class="float-left">
+                <label class="input-label"> Moeda</label><br>
+                  <input type="text" name="currency" value="MZN"/>
+              </div>
+              <div class="float-left">
+                <label class="input-label"> Câmbio</label><br>
+                  <input type="text" name="exchange" value="0,00"/>
+              </div>
               <div class="float-right">
-                <label class="input-label">
+                <label class="input-label"> Data de Movimento</label><br>
                   <input type="data" name="operation-date" value=""/>
-                </label>
               </div>
             </div>
+            <div class="clearfix"></div>
             <div class="empty-row"></div>
             <div class="the-table">
               <table class="moviments-table">
-                <tdhead class="input-table-head">
+                <thead class="input-table-head">
                   <tr class="head">
-                    <td> Código</td>
-                    <td> Designação</td>
-                    <td> Débito</td>
-                    <td> Crédito</td>
+                    <td class="code"> Código</td>
+                    <td class="description"> Designação</td>
+                    <td class="debit values"> Débito</td>
+                    <td class="credit values"> Crédito</td>
                   </tr>
-                </tdhead>
-                <tdbody class="input-table-body">
+                </thead>
+                <tbody class="input-table-body">
                   <tr class="body">
-                    <td>
+                    <td class="code">
                       <input type="text" name="code" value="none"/>
                     </td>
-                    <td>
+                    <td class="description">
                       <select name="description">
                         <option selected="selected">Seleccione uma designação</option>
                         <option value="Dizims">Dizimos</option>
                         <option value="Offers">Ofertas</option>
                       </select>
                     </td>
-                    <td>
+                    <td class="values">
                       <input type="text" name="debit" value=""/>
-                    </td>
+                    </td class="values">
                     <td>
                       <input type="text" name="credit" value=""/>
                     </td>
                   </tr>
-                </tdbody>
+                  <tr class="bottom"></tr>
+                </tbody>
               </table>
               <div class="table-footer">
                 <div class="table-footer-content float-left">
-                  <div class="total-debit"><span class="debit-total-head">Total Débito</span><span class="debit-total-body">0,00</span></div>
-                  <div class="total-credit"><span class="credit-total-head">Total Crédito</span><span class="credit-total-body">0,00</span></div>
+                  <div class="total-debit"><span class="debit-total-head">Total Débito </span><span class="debit-total-body">0,00</span></div>
+                  <div class="total-credit"><span class="credit-total-head">Total Crédito </span><span class="credit-total-body">0,00</span></div>
                 </div>
                 <div class="table-footer-content float-right"><a href="#">Extracto</a><a href="#">Imprimir</a></div>
               </div>

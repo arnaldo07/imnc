@@ -1,0 +1,28 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: bases
+  * Company: Xindiri
+  * Code URI:https://xindiri.cmo
+
+*/
+
+body{
+  font-family: imnc regular;
+}
+
+p, a, span{
+  font-size: 0.95em;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
