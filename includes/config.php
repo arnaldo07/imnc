@@ -28,7 +28,7 @@ defined('MAIL_NAME') ? null : define ("MAIL_NAME", "Geek Tutorials");
 defined('HTTP_PROTOCOL') ? null : define('HTTP_PROTOCOL', strtolower(substr($_SERVER["SERVER_PROTOCOL"]
 ,0,strpos( $_SERVER["SERVER_PROTOCOL"],'/'))).'://');
 //Site public root for linkS
-defined('SITE_PUBLIC')? null : define ("SITE_PUBLIC", HTTP_PROTOCOL.$_SERVER['SERVER_NAME']."/imnc/public_html/");
+defined('SITE_PUBLIC')? null : define ("SITE_PUBLIC", 'https://'.$_SERVER['SERVER_NAME'].'/public_html/');
 
 
 ?>
