@@ -1,0 +1,185 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: defines fonts to be used along the project
+  * Company: Xindiri
+  * Company URI: https://xindiri.com
+*/
+/*thin font*/
+@font-face {
+  font-family: imnc thin;
+  src: url(../content/fonts/raleway/Raleway-Thin.ttf);
+}
+/*regular font*/
+@font-face {
+  font-family: imnc regular;
+  src: url(../content/fonts/raleway/Raleway-Regular.ttf);
+}
+/*semi-bold font */
+@font-face {
+  font-family: imnc semibold;
+  src: url(../content/fonts/raleway/Raleway-Bold.ttf);
+}
+/*etrabold font */
+@font-face {
+  font-family: imnc bold;
+  src: url(../content/fonts/raleway/Raleway-ExtraBold.ttf);
+}
+/*light italic font */
+@font-face {
+  font-family: imnc lightitalic;
+  src: url(../content/fonts/raleway/Raleway-LightItalic.ttf);
+}
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: bases
+  * Company: Xindiri
+  * Code URI:https://xindiri.cmo
+
+*/
+/* line 10, ../sass/partials/_base.scss */
+body {
+  font-family: imnc regular;
+  color: #63697f;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+::selection {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+p, a, span {
+  font-size: 0.95em;
+  color: #63697f;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+/* line 26, ../sass/partials/_base.scss */
+.float-left {
+  float: left;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.float-right {
+  float: right;
+}
+
+/* line 34, ../sass/partials/_base.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+select {
+  background: url("../content/images/icons/select-arrow.png") no-repeat right 50%;
+  -webkit-appearance: none;
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+/* line 6, ../sass/index.scss */
+body {
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  font-family: imnc regular;
+  background-color: #1da1f2;
+}
+/* line 13, ../sass/index.scss */
+body p, body span {
+  color: #fff;
+}
+/* line 17, ../sass/index.scss */
+body header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #f4f7f6;
+  box-shadow: 1px 1px solid #000;
+}
+/* line 25, ../sass/index.scss */
+body .header-content {
+  text-align: center;
+}
+/* line 27, ../sass/index.scss */
+body .header-content span {
+  font-size: 1.8em;
+  color: #1da1f2;
+  font-family: imnc semibold;
+  line-height: 1.9;
+}
+
+/* line 38, ../sass/index.scss */
+div.main-login-page-container .login-div-form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 130px 0;
+}
+/* line 42, ../sass/index.scss */
+div.main-login-page-container .login-div-form .login-form-header {
+  text-align: center;
+}
+
+/* line 48, ../sass/index.scss */
+div.login-form-container {
+  width: 100%;
+}
+/* line 50, ../sass/index.scss */
+div.login-form-container form {
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 53, ../sass/index.scss */
+div.login-form-container form input {
+  font-style: italic;
+}
+/* line 56, ../sass/index.scss */
+div.login-form-container form input.full-width {
+  width: 100%;
+  height: 40px;
+  border: 1px solid transparent;
+}
+/* line 61, ../sass/index.scss */
+div.login-form-container form input.password {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 12px;
+  border-radius: .25rem;
+  color: #444;
+}
+/* line 69, ../sass/index.scss */
+div.login-form-container form input.username {
+  padding-left: 5px;
+  font-size: 12px;
+  border-radius: .25rem;
+  color: #444;
+}
+/* line 75, ../sass/index.scss */
+div.login-form-container form input.submit {
+  background-color: #71c9f8;
+  border-radius: .25rem;
+  border: 1px solid #71c9f8;
+  width: 102%;
+  font-family: imnc semibold;
+  color: #fff;
+}
+/* line 84, ../sass/index.scss */
+div.login-form-container form input.keep-login {
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+/* line 88, ../sass/index.scss */
+div.login-form-container form .forgot-pass {
+  line-height: 2;
+  text-decoration: none;
+  color: #fff;
+}

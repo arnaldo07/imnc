@@ -1,0 +1,199 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: defines fonts to be used along the project
+  * Company: Xindiri
+  * Company URI: https://xindiri.com
+*/
+/*thin font*/
+@font-face {
+  font-family: imnc thin;
+  src: url(../content/fonts/raleway/Raleway-Thin.ttf);
+}
+/*regular font*/
+@font-face {
+  font-family: imnc regular;
+  src: url(../content/fonts/raleway/Raleway-Regular.ttf);
+}
+/*semi-bold font */
+@font-face {
+  font-family: imnc semibold;
+  src: url(../content/fonts/raleway/Raleway-Bold.ttf);
+}
+/*etrabold font */
+@font-face {
+  font-family: imnc bold;
+  src: url(../content/fonts/raleway/Raleway-ExtraBold.ttf);
+}
+/*light italic font */
+@font-face {
+  font-family: imnc lightitalic;
+  src: url(../content/fonts/raleway/Raleway-LightItalic.ttf);
+}
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: bases
+  * Company: Xindiri
+  * Code URI:https://xindiri.cmo
+
+*/
+/* line 10, ../sass/partials/_base.scss */
+body {
+  font-family: imnc regular;
+  color: #63697f;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+::selection {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+p, a, span {
+  font-size: 0.95em;
+  color: #63697f;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+/* line 26, ../sass/partials/_base.scss */
+.float-left {
+  float: left;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.float-right {
+  float: right;
+}
+
+/* line 34, ../sass/partials/_base.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+select {
+  background: url("../content/images/icons/select-arrow.png") no-repeat right 50%;
+  -webkit-appearance: none;
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+/* line 6, ../sass/header.scss */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: imnc regular;
+}
+
+/* line 12, ../sass/header.scss */
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e6e6;
+  box-shadow: 5px -3px 10px 5px #FAFAFA;
+}
+/* line 20, ../sass/header.scss */
+header .header-content .close-container {
+  height: 50px;
+  padding: 0 16px;
+}
+/* line 23, ../sass/header.scss */
+header .header-content .close-container a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 3.2;
+}
+/* line 31, ../sass/header.scss */
+header .header-content ul.primary-menu-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 36, ../sass/header.scss */
+header .header-content ul.primary-menu-ul li {
+  width: 100%;
+  list-style: none;
+}
+/* line 40, ../sass/header.scss */
+header .header-content ul.primary-menu-ul li a {
+  display: block;
+  width: 91.6%;
+  padding: 7% 0 7% 8%;
+  border: 1px solid #efefef;
+  color: #777;
+}
+/* line 46, ../sass/header.scss */
+header .header-content ul.primary-menu-ul li a:hover {
+  background-color: #efefef;
+}
+/* line 52, ../sass/header.scss */
+header .header-content .primary-menu-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 240px;
+  height: 656px;
+  background-color: #FAFAFA;
+  border: 1px solid #f4f7f6;
+  box-shadow: 1px 1px 1px solid #000;
+}
+
+/* line 65, ../sass/header.scss */
+.primary-menu-container {
+  width: 95%;
+  margin: 0 auto;
+}
+/* line 69, ../sass/header.scss */
+.primary-menu-container .primary-menu-arrow {
+  width: 33.3%;
+  padding: 10px 0;
+}
+/* line 73, ../sass/header.scss */
+.primary-menu-container .primary-logo {
+  width: 33.3%;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: imnc semibold;
+  line-height: 1.9;
+}
+/* line 81, ../sass/header.scss */
+.primary-menu-container .primary-logo span a {
+  color: #71c9f8;
+}
+/* line 87, ../sass/header.scss */
+.primary-menu-container .logout {
+  width: 33.3%;
+  padding: 7px 0;
+}
+/* line 90, ../sass/header.scss */
+.primary-menu-container .logout span {
+  color: #000;
+}
+/* line 93, ../sass/header.scss */
+.primary-menu-container .logout .logout-content {
+  width: 100%;
+}
+/* line 96, ../sass/header.scss */
+.primary-menu-container .logout .greetings {
+  margin-right: 7%;
+  line-height: 2.6;
+}
+/* line 101, ../sass/header.scss */
+.primary-menu-container .logout a.logout {
+  background-color: #71c9f8;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #71c9f8;
+  border-radius: .25rem;
+  text-align: center;
+}

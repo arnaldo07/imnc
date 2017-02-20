@@ -1,0 +1,83 @@
+@import "compass";
+@import "partials/normalize";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/base";
+
+body{
+  margin: 0;
+  width: 100%;
+  background-color: $dirty_white;
+}
+
+.bold{
+  font-family: imnc semibold;
+}
+
+
+div.cashflow-statement-container{
+  width: 100%;
+  padding: 50px 0;
+
+  .cashflow-statement-table{
+    width: 99%;
+    margin: 0 auto;
+  }
+  .page-head{
+    text-align: center;
+    h1{
+      font-size: 1.9em;
+    }
+  }
+}
+
+
+div.cashflow-statement-table{
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: $white;
+  }
+
+  tr.distiguish{
+    background-color: $dirty_white;
+  }
+  td{
+    border-bottom: 1px solid $border_color;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .total-results{
+    background-color: $dirty_white;
+  }
+
+  .select-input{
+    .cashflow-period{
+      height: 32.5px;
+      width: 100px;
+      border: 1px solid $border_color;
+      margin-bottom: 5px;
+    }
+  }
+
+  thead{
+    text-align: center;
+    td{
+      padding: 13px 0;
+      font-family: imnc semibold;
+    }
+    tr{
+      background-color: $dirter_white;
+      td{
+        color: $text_color;
+      }
+    }
+  }
+
+  .table-footer{
+    span{
+      font-size: 12px;
+      line-height: 2;
+    }
+  }
+}

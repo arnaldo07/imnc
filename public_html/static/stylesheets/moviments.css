@@ -1,0 +1,215 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: bases
+  * Company: Xindiri
+  * Code URI:https://xindiri.cmo
+
+*/
+/* line 10, ../sass/partials/_base.scss */
+body {
+  font-family: imnc regular;
+  color: #63697f;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+::selection {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+p, a, span {
+  font-size: 0.95em;
+  color: #63697f;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+/* line 26, ../sass/partials/_base.scss */
+.float-left {
+  float: left;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.float-right {
+  float: right;
+}
+
+/* line 34, ../sass/partials/_base.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+select {
+  background: url("../content/images/icons/select-arrow.png") no-repeat right 50%;
+  -webkit-appearance: none;
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+/* line 5, ../sass/moviments.scss */
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+/* line 12, ../sass/moviments.scss */
+div.moviments-form-container {
+  width: 100%;
+  padding: 25px 0;
+}
+/* line 16, ../sass/moviments.scss */
+div.moviments-form-container .moviments-form-subcontainer {
+  width: 60%;
+  margin: 0 auto;
+}
+/* line 19, ../sass/moviments.scss */
+div.moviments-form-container .moviments-form-subcontainer .moviments-head {
+  text-align: center;
+}
+/* line 21, ../sass/moviments.scss */
+div.moviments-form-container .moviments-form-subcontainer .moviments-head h1 {
+  font-size: 1.9em;
+  line-height: 2;
+}
+
+/* line 32, ../sass/moviments.scss */
+div.moviments-body .empty-row {
+  height: 20px;
+}
+/* line 35, ../sass/moviments.scss */
+div.moviments-body div.exchange {
+  margin-left: 1px;
+}
+/* line 38, ../sass/moviments.scss */
+div.moviments-body .exchange {
+  padding-left: 10px;
+  height: 25px;
+}
+/* line 42, ../sass/moviments.scss */
+div.moviments-body .currency {
+  padding-left: 10px;
+  height: 25px;
+}
+/* line 46, ../sass/moviments.scss */
+div.moviments-body .datepicker {
+  text-align: right;
+  padding-right: 10px;
+  height: 25px;
+}
+/* line 51, ../sass/moviments.scss */
+div.moviments-body .datepicker-label {
+  text-align: right;
+}
+/* line 54, ../sass/moviments.scss */
+div.moviments-body input {
+  border: 1px solid #e8e6e6;
+  color: #63697f;
+  font-family: imnc regular;
+  font-size: 0.95em;
+}
+/* line 60, ../sass/moviments.scss */
+div.moviments-body select {
+  font-family: imnc regular;
+  font-size: 0.95em;
+}
+/* line 64, ../sass/moviments.scss */
+div.moviments-body input.disabled {
+  background-color: #efefef;
+  box-shadow: none;
+}
+/* line 68, ../sass/moviments.scss */
+div.moviments-body span.error-report {
+  color: red;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+/* line 75, ../sass/moviments.scss */
+div.the-table {
+  border: 1px solid #e8e6e6;
+}
+/* line 77, ../sass/moviments.scss */
+div.the-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  padding-bottom: 200px;
+}
+/* line 83, ../sass/moviments.scss */
+div.the-table table thead {
+  background-color: #efefef;
+}
+/* line 86, ../sass/moviments.scss */
+div.the-table table thead tr {
+  height: 5px;
+}
+/* line 89, ../sass/moviments.scss */
+div.the-table table thead td {
+  padding: 5px 10px;
+}
+/* line 95, ../sass/moviments.scss */
+div.the-table table tr {
+  height: 5px;
+}
+/* line 98, ../sass/moviments.scss */
+div.the-table table tr .code {
+  width: 10%;
+}
+/* line 100, ../sass/moviments.scss */
+div.the-table table tr .code input {
+  width: 100%;
+}
+/* line 105, ../sass/moviments.scss */
+div.the-table table tr .values {
+  width: 20%;
+}
+/* line 111, ../sass/moviments.scss */
+div.the-table table tbody td {
+  border: 1px solid #f4f7f6;
+}
+/* line 113, ../sass/moviments.scss */
+div.the-table table tbody td input {
+  width: 96.5%;
+  height: 30px;
+  padding-right: 5px;
+  text-align: right;
+  border: 1px solid #e8e6e6;
+}
+/* line 120, ../sass/moviments.scss */
+div.the-table table tbody td select {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #e8e6e6;
+}
+/* line 126, ../sass/moviments.scss */
+div.the-table table tbody tr.bottom {
+  height: 250px;
+  background-color: #fff;
+}
+
+/* line 134, ../sass/moviments.scss */
+div.table-footer {
+  background-color: #efefef;
+  padding: 4px 1%;
+  border: 1px solid #e8e6e6;
+}
+/* line 140, ../sass/moviments.scss */
+div.table-footer .table-footer-content .right {
+  text-align: right;
+}
+/* line 143, ../sass/moviments.scss */
+div.table-footer .table-footer-content a {
+  text-align: right;
+}
+/* line 148, ../sass/moviments.scss */
+div.table-footer .totals {
+  font-weight: bold;
+}

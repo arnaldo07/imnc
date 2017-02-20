@@ -1,0 +1,42 @@
+@import "compass";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/base";
+
+body{
+margin: 0;
+width: 100%;
+color: $white;
+font-family: imnc regular;
+background-color: $primary_color;
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: $white;
+  border-bottom: 1px solid $base_color;
+  box-shadow: 1px 1px solid $black;
+}
+
+.header-content{
+  text-align: center;
+  span{
+    font-size: 1.8em;
+    color: $secondary_color;
+    font-family: imnc semibold;
+    line-height: 1.9;
+  }
+}
+div.content-text{
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -50%;
+  margin-top: -25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+}

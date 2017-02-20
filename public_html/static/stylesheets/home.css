@@ -1,0 +1,103 @@
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: defines fonts to be used along the project
+  * Company: Xindiri
+  * Company URI: https://xindiri.com
+*/
+/*thin font*/
+@font-face {
+  font-family: imnc thin;
+  src: url(../content/fonts/raleway/Raleway-Thin.ttf);
+}
+/*regular font*/
+@font-face {
+  font-family: imnc regular;
+  src: url(../content/fonts/raleway/Raleway-Regular.ttf);
+}
+/*semi-bold font */
+@font-face {
+  font-family: imnc semibold;
+  src: url(../content/fonts/raleway/Raleway-Bold.ttf);
+}
+/*etrabold font */
+@font-face {
+  font-family: imnc bold;
+  src: url(../content/fonts/raleway/Raleway-ExtraBold.ttf);
+}
+/*light italic font */
+@font-face {
+  font-family: imnc lightitalic;
+  src: url(../content/fonts/raleway/Raleway-LightItalic.ttf);
+}
+/*
+  * Author: Arnaldo Govene <arnaldo.govene@outlook.com>
+  * Author URI: https://arnaldogovene.com
+  * Description: bases
+  * Company: Xindiri
+  * Code URI:https://xindiri.cmo
+
+*/
+/* line 10, ../sass/partials/_base.scss */
+body {
+  font-family: imnc regular;
+  color: #63697f;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+::selection {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+p, a, span {
+  font-size: 0.95em;
+  color: #63697f;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+/* line 26, ../sass/partials/_base.scss */
+.float-left {
+  float: left;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.float-right {
+  float: right;
+}
+
+/* line 34, ../sass/partials/_base.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+select {
+  background: url("../content/images/icons/select-arrow.png") no-repeat right 50%;
+  -webkit-appearance: none;
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+/* line 5, ../sass/home.scss */
+body {
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  font-family: imnc regular;
+  background-color: #1da1f2;
+}
+
+/* line 12, ../sass/home.scss */
+div.content-text {
+  text-align: center;
+  margin-top: 300px;
+  font-weight: bold;
+  font-size: 2em;
+}

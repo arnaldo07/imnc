@@ -1,0 +1,92 @@
+@import "compass";
+@import "partials/normalize";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/base";
+
+body{
+  margin: 0;
+  width: 100%;
+  background-color: $white;
+}
+
+
+div.moviments-statement-container{
+  width: 100%;
+  padding: 50px 0;
+
+  .moviments-statement-table{
+    width: 70%;
+    margin: 0 auto;
+
+    .select-input{
+      .statement-period{
+        height: 32.5px;
+        width: 100px;
+        border: 1px solid $border_color;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+
+div.moviments-statement-table{
+  .page-head{
+    text-align: center;
+    padding: 20px 0;
+    h1{
+      font-size: 1.9em;
+    }
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: $white;
+  }
+  td{
+    border-bottom: 1.5px solid $border_color;
+    padding: 4px 5px;
+  }
+
+  thead{
+    text-align: center;
+    td{
+      padding: 8px 0;
+      font-family: imnc semibold;
+    }
+    .first-row{
+      background-color: $dirter_white;
+      td{
+        color: $text_color;
+      }
+    }
+  }
+
+  tbody{
+    tr td.values{
+      text-align: center;
+    }
+    tr.odd{
+      background-color: $dirty_white;
+    }
+    tr.totals{
+      background-color: $dirter_white;
+      padding: 10px 0;
+      td{
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
+  }
+
+  .table-footer{
+    span{
+      font-size: 12px;
+      line-height: 2;
+    }
+  }
+
+}

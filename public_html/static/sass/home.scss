@@ -1,0 +1,17 @@
+@import "compass";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/base";
+body{
+margin: 0;
+width: 100%;
+color: $white;
+font-family: imnc regular;
+background-color: $primary_color;
+}
+div.content-text{
+  text-align: center;
+  margin-top: 300px;
+  font-weight: bold;
+  font-size: 2em;
+}
