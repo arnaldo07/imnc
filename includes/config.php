@@ -9,10 +9,10 @@
 **/
 
 //Define constants to connect to MySql database
-defined('DB_SERVER') ? null : define("DB_SERVER",   "localhost");
-defined('DB_USER')   ? null : define("DB_USER",     "root");
-defined('DB_PASS')   ? null : define("DB_PASS",     "");
-defined('DB_NAME')   ? null : define("DB_NAME",     "imnc");
+defined('DB_SERVER') ? null : define("DB_SERVER",   "sql10.freemysqlhosting.net");
+defined('DB_USER')   ? null : define("DB_USER",     "sql10160016");
+defined('DB_PASS')   ? null : define("DB_PASS",     "UFaxFtGjtX");
+defined('DB_NAME')   ? null : define("DB_NAME",     "sql10160016");
 
 //Define Mail constats
 defined('MAIL_HOST') ? null : define ("MAIL_HOST", "smtp.gmail.com");
