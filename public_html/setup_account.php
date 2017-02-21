@@ -84,6 +84,7 @@ if (isset($_GET['username']) and isset($_GET['key']) and $_GET['verification']){
               $report = "A conta foi configurada com sucesso!!";
               //return empty variables to avoid resubmission
               $password          = ""; $pwd_confirm       = "";
+              redirect_to(SITE_PUBLIC);
             } else {
               $report = "Ups, Alguma coisa correu mal, não sabemos o quê!!";
             }
