@@ -431,7 +431,7 @@ class Admin{
     $sql .= "SET ";
     $sql .= "admin_password           = '{$escaped_admin_password}', ";
     $sql .= "admin_status             = '{$status}', ";
-    $sql .= "admin_token              = '{$token}', ";
+    $sql .= "admin_token              = '{$token}' ";
     $sql .= "WHERE ";
     $sql .= "admin_id                 = '{$escaped_admin_id}' ";
     //Run query

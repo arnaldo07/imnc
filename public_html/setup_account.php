@@ -58,7 +58,7 @@ if (isset($_GET['username']) and isset($_GET['key']) and $_GET['verification']){
             //Encripty password
             $password = sha1(md5($password));
             //Create Master Admin
-            if(!empty(Admin::setup($password, $account_id))){
+            if(!empty(Admin::setup_account($account_id, $password))){
               //Time
               $time      = time();
               //year
@@ -78,7 +78,7 @@ if (isset($_GET['username']) and isset($_GET['key']) and $_GET['verification']){
               $to_name      = "{$name} {$surname}";
               $subject      = "Configuração de senha";
               $from_name    = MAIL_NAME;
-              $from_name    = MAIL_USER;
+              $from    = MAIL_USER;
               //Send email
               Mailer::sendmail($to_name, $to, $subject, $message, $from_name, $from);
               $report = "A conta foi configurada com sucesso!!";

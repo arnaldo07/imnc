@@ -88,7 +88,7 @@ if (isset ($_POST['submit'])){
       $to_name      = "{$name} {$surname}";
       $subject      = "Convite - Igreja Ministerial das Nações Para Cristo";
       $from_name    = MAIL_NAME;
-      $from_name    = MAIL_USER;
+      $from    = MAIL_USER;
       //Send email
       if (Mailer::sendmail($to_name, $to, $subject, $message, $from_name, $from)){
         $report = "Enviamos um e-mail de activação de conta a {$name}.";
